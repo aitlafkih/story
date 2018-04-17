@@ -4,6 +4,7 @@ package com.boot;
  * Hello world!
  *
  */
+@SpringBootApplication
 public class App 
 {
     public static void main( String[] args )

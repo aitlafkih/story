@@ -18,7 +18,6 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-   <spring-data-releasetrain.version>Fowler-SR2</spring-data-releasetrain.version>
   </properties>
 
   <dependencies>
@@ -26,7 +25,7 @@
    <dependency>
 	<groupId>org.springframework.boot</groupId>
 	<artifactId>spring-boot-starter-web</artifactId>
-    </dependency>
+   </dependency>
     
     <dependency>
       <groupId>junit</groupId>
@@ -35,4 +34,13 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
 </project>
